@@ -7,4 +7,7 @@ package com.banyuan.practice.p01;
  * @version: 1.0
  */
 public class OuterDemo {
+    public static void main(String[] args) {
+        Outer.method().show();
+    }
 }

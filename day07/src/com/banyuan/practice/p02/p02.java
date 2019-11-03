@@ -2,11 +2,9 @@ package com.banyuan.practice.p02;
 
 /**
  * @Auther: 张伟
- * @Date: 2019/10/28
+ * @Date: 2019/10/31
  * @Description: com.banyuan.practice.p02
  * @version: 1.0
  */
-public interface Swimming {
-    public abstract void swim();
-
+public class p02 {
 }
