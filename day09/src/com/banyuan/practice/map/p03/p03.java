@@ -1,4 +1,4 @@
-package com.banyuan.practice.p03;
+package com.banyuan.practice.map.p03;
 
 import java.util.HashMap;
 import java.util.Map;
