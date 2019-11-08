@@ -10,12 +10,21 @@ public class DeaB extends Thread {
 
     @Override
     public void run() {
-        synchronized (Stu.s1){
-            System.out.println("我要苹果");
-        }
+        while (true) {
+            synchronized (Fruit.banana) {
+                System.out.println("b得到香蕉");
+                try {
+                    Thread.sleep(10);
+                    System.out.println("b要去拿苹果了");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
 
-        synchronized (Stu.s2){
-            System.out.println("我要栗子");
+                synchronized (Fruit.apple) {
+                    System.out.println("b得到苹果");
+                }
+            }
+
         }
     }
 }

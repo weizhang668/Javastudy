@@ -13,7 +13,7 @@ public class ThreadC implements Runnable {
     public void run() {
         while (true) {
             synchronized (tools) {
-                tools.number++;
+                System.out.println("c-------"+(tools.number));
             }
         }
     }

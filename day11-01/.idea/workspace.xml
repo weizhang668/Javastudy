@@ -1,6 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92d69113-c097-4db9-9cc4-35e2d7144c91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Test3/src/cd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/p05/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/p05/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/p08/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/p08/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/p08/StudentAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3/src/p08/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day07/src/com/banyuan/practice/p04/p04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day07/src/com/banyuan/practice/p05/p05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day07/src/com/banyuan/practice/p06/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/com/banyuan/practice/p02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/com/banyuan/practice/p02/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/day09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/list/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/map/p03/ex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/map/p03/p03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/set/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/set/p01/p01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day10/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day10/src/com/banyuan/example/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day10/src/com/banyuan/practice/IO/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day10/src/com/banyuan/practice/IO/IO1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day10/src/com/banyuan/practice/p01/FileLIst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day10/src/com/banyuan/practice/p01/ex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day10/src/com/banyuan/practice/p01/p01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day11-01/zw/FileList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/day11-01/zw/IOp01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zw/FileList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zw/IOp01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11/src/com/banyuan/practice/p01/FileList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11/src/com/banyuan/practice/p01/IOp01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../changyongMethod/src/Random/suijishu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../changyongMethod/src/Random/suijishu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/example/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/example/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/TestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/TestPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/TestSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/p01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/p01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/p02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/p02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/p03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/p03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/p04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/p04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day02/src/com/banyuan/practice/sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/out/production/day04/com/banyuan/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/out/production/day04/com/banyuan/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/out/production/day04/com/banyuan/practice/packaging/QuestionTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/out/production/day04/com/banyuan/practice/packaging/QuestionTitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/out/production/day04/com/banyuan/practice/packaging/StudentQuestionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/out/production/day04/com/banyuan/practice/packaging/StudentQuestionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/out/production/day04/com/banyuan/practice/packaging10/Tool.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/out/production/day04/com/banyuan/practice/packaging10/Tool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/src/com/banyuan/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/src/com/banyuan/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/src/com/banyuan/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/src/com/banyuan/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/src/com/banyuan/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/src/com/banyuan/Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/src/com/banyuan/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/src/com/banyuan/Outer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/src/com/banyuan/practice/packaging/QuestionTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/src/com/banyuan/practice/packaging/QuestionTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/src/com/banyuan/practice/packaging/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/src/com/banyuan/practice/packaging/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/src/com/banyuan/practice/packaging/StudentQuestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/src/com/banyuan/practice/packaging/StudentQuestionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day04/src/com/banyuan/practice/packaging10/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day04/src/com/banyuan/practice/packaging10/Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day06/src/com/banyuan/practice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../day06/src/com/banyuan/practice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/src/com/banyuan/example/Date/demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/src/com/banyuan/example/Date/demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/src/com/banyuan/practice/p01/p01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/src/com/banyuan/practice/p01/p01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/src/com/banyuan/practice/p02/p02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/src/com/banyuan/practice/p02/p02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day07/src/com/banyuan/practice/p03/p03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day07/src/com/banyuan/practice/p03/p03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day08/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../day08/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day08/src/com/banyuan/example/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day08/src/com/banyuan/example/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day08/src/com/banyuan/practice/p01/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day08/src/com/banyuan/practice/p01/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p01/p01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p01/p01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p02/p02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p02/p02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p03/ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p03/ex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p03/p03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p03/p03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p04/p04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day09/src/com/banyuan/practice/p04/p04.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TBVsknoCUZhrv845dROgRRYVVy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -8,5 +97,70 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zw" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="IOp01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zw.IOp01" />
+      <module name="day11-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IOp01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92d69113-c097-4db9-9cc4-35e2d7144c91" name="Default Changelist" comment="" />
+      <created>1572933684327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572933684327</updated>
+      <workItem from="1572933687967" duration="1382000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

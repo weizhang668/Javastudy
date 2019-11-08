@@ -16,8 +16,6 @@ public class StudentQuestionTest {
         boolean bo=true;
         String stuNum;
         Student student=null;
-        //System.out.println("qqqqqqqqqq");
-        //System.out.println(stu[1].getStuNum());
         do {
             System.out.println("请输入你的学生编号：");
             stuNum=sc.next();
@@ -36,10 +34,11 @@ public class StudentQuestionTest {
             }
 
         }while (bo);
-        //System.out.println("----------------");
+        System.out.println(student.toString());
 
         Question[] q=new Question[10];
-        q= QuestionTitle.getQuestions(QuestionTitle.inputQuestions());//获取10条题目
+        q= QuestionTitle.getQuestions(QuestionTitle.inputQuestions());
+        //获取10条题目
         String[] answer=new String[10];
         for(int i=0;i<q.length;i++){
             System.out.println("第"+(i+1)+"题");

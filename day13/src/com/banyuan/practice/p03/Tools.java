@@ -7,4 +7,5 @@ package com.banyuan.practice.p03;
  * @version: 1.0
  */
 public class Tools {
+    int number=10;
 }

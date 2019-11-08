@@ -13,14 +13,15 @@ public class ThreadD implements Runnable {
     public void run() {
         while (true) {
             //synchronized (tools) {
-            Thread b=new Thread(new ThreadB());
             try {
-                b.join();
+                Thread c = new Thread(new ThreadC());
+                c.start();
+                c.join();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            tools.number++;
-            //}
+            System.out.println("d-------" + (tools.number));
+        //}
         }
     }
 }

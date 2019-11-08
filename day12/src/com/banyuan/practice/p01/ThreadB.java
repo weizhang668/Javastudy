@@ -16,9 +16,14 @@ public class ThreadB implements Runnable {
     @Override
     public void run() {
         while (true) {
-            synchronized (this) {
-                if (Bank.money >= 100) {
-                    bank.atm(100);
+            synchronized (new Bank()) {
+                if (Bank.money >= 200) {
+                    bank.count(200);
+                    try {
+                        Thread.sleep(100);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }

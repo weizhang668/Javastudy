@@ -53,8 +53,9 @@ public class QuestionTitle {
         for(int i=0;i<x.length;i++){
             x[i]=random.nextInt(30);
             for(int j=1;j<i;j++){
-                if (x[i]==x[j])
+                if (x[i]==x[j]) {
                     i--;
+                }
             }
         }
         for(int i=0;i<x.length;i++){

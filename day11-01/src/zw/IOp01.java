@@ -1,4 +1,4 @@
-package com.banyuan.practice.p01;
+package zw;
 
 import java.io.*;
 import java.util.List;
@@ -25,16 +25,23 @@ public class IOp01 {
             String s=f.getPath();
             //System.out.println(s.toString());
             if (s.endsWith(".doc")){
-                InputStream inputStream=new FileInputStream(f);
-                OutputStream outputStream=new FileOutputStream("2.txt",true);
-                byte[] bytes=new byte[(int) f.length()];
-                inputStream.read(bytes);
+                InputStreamReader inputStreamReader=new InputStreamReader(new FileInputStream(f),"utf-16");
+                //InputStream inputStream=new FileInputStream(f);
+                //OutputStream outputStream=new FileOutputStream("2.txt",true);
+                OutputStreamWriter outputStreamWriter=new OutputStreamWriter(new FileOutputStream("2.txt",true),"utf-8");
+                //byte[] bytes=new byte[(int) f.length()];
+                char[] chars=new char[(int) f.length()];
+                //inputStream.read(bytes);
+                inputStreamReader.read(chars);
+                System.out.println(new String(chars));
                 System.out.println("===============");
-                outputStream.write(bytes);
-                outputStream.flush();
+                //outputStream.write(bytes);
+                outputStreamWriter.write(chars);
+                //outputStream.flush();
                 Thread.sleep(1000);
-                outputStream.close();
-                inputStream.close();
+                //outputStream.close();
+                outputStreamWriter.close();
+                inputStreamReader.close();
 
 
             }

@@ -12,9 +12,16 @@ public class ThreadA implements Runnable {
     @Override
     public void run() {
         while (true) {
-            synchronized (tools) {
-                tools.number++;
+            //synchronized (tools) {
+            try {
+                Thread b=new Thread(new ThreadB());
+                b.start();
+                b.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
+            System.out.println("a-------"+(tools.number));
+            //}
         }
     }
 }

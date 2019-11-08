@@ -6,5 +6,15 @@ package com.banyuan.practice.p03;
  * @Description: com.banyuan.practice.p03
  * @version: 1.0
  */
-public class ThreadB {
+public class ThreadB implements Runnable {
+    Tools tools;
+
+    @Override
+    public void run() {
+        while (true) {
+            synchronized (tools) {
+                System.out.println("b-------"+(tools.number));
+            }
+        }
+    }
 }

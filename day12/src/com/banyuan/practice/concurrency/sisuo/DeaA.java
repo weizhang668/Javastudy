@@ -6,17 +6,26 @@ package com.banyuan.practice.concurrency.sisuo;
  * @Description: com.banyuan.practice.concurrency.sisuo
  * @version: 1.0
  */
-public class Dea extends Thread {
-
-    private boolean flag;
-
-    public Dea(boolean flag) {
-        this.flag = flag;
-    }
+public class DeaA extends Thread {
 
     @Override
     public void run() {
-        super.run();
+        while (true) {
+            synchronized (Fruit.apple) {
+                System.out.println("a得到苹果");
+                try {
+                    Thread.sleep(10);
+                    System.out.println("a要去拿香蕉了");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                synchronized (Fruit.banana) {
+                    System.out.println("a得到香蕉");
+                }
+            }
+
+        }
     }
 }
 

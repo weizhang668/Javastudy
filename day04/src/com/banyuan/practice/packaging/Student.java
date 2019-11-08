@@ -6,7 +6,9 @@ package com.banyuan.practice.packaging;
  * @Description: com.banyuan.practice.packaging08
  * @version: 1.0
  */
-/*
+/**
+ * 2019.10.25 周五
+ * 面向对象练习
 * 现有学生类（编号stuNum,姓名stuName,年级stuGrade,成绩stuScore）
 * 和试题类（试题编号number,试题内容title,试题答案 anwserA
 * anwserB anwserC anwserD ），

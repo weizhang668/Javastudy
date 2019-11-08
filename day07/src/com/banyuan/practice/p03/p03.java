@@ -7,9 +7,7 @@ package com.banyuan.practice.p03;
  * @version: 1.0
  */
 /**
- * 2.定义一个StringBuffer类对象，
- * 1）使用append方法向对象中添加26个字母，并倒序遍历输入
- * 2）删除前五个字符
+ * 3.将字符串中指定部分进行反转。
  * */
 public class p03 {
     public static void main(String[] args) {
@@ -18,10 +16,14 @@ public class p03 {
             sb.append((char) ('a'+i));
 
         }
-        System.out.println(sb);
-        StringBuffer newsb=sb.reverse();
-        System.out.println(newsb);
-        String str=sb.substring(5);
-        System.out.println(str);
+        String str=sb.substring(1,13);
+        StringBuffer steb=new StringBuffer(str);
+        //构造方法
+
+        System.out.println(steb.reverse());
+        //StringBuffer newsb=sb.reverse();
+        //System.out.println(newsb);
+        //String str=sb.substring(5);
+        //System.out.println(str);
     }
 }
